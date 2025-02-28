@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export LD_PRELOAD=/path/to/directory/containing/toralizer/toralize.so
+${@}
+unset LD_PRELOAD
+
+# Rename the file as toralize, or whatever you wish. Save this script in /usr/bin to ensure easy access from any directory 
