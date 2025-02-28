@@ -10,3 +10,9 @@ Example:
 toralize curl http://142.250.207.206
 # The above IP address belongs to Google
 ```
+
+## Final Notes
+- This technique is useful for anonymous browsing and bypassing restrictions
+- Limitations:
+  - Does not Support SOCKS5
+  - May fail on IPV6 as SOCKS4 does not support it
